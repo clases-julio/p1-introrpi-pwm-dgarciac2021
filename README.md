@@ -4,4 +4,4 @@ This exersice consists on drive a LED with the GPIO available on the Raspberry P
 
 ## Circuit Assembly
 
-![Circuit](blob:https://urjc-my.sharepoint.com/01a1f69b-b0c7-41af-a0b1-3e4f4c5db567)
+![Circuit](https://urjc-my.sharepoint.com/personal/ic_pasca_2021_alumnos_urjc_es/Documents/sensores-y-actuadores/p1/20220929_124421.jpg)
