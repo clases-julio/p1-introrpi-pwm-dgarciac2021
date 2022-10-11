@@ -1,12 +1,12 @@
 # P1-IntroRPi-PWM
 
-This exersice consists on drive a LED with the GPIO available on the Raspberry Pi 3B+. You might want to take a look on the [wiki](https://github.com/clases-julio/p1-introrpi-pwm-dgarciac2021/wiki), since there is info of everything involved on this project. From the board itslef to the PWM method.
+This exersice consists on drive a [LED](https://github.com/clases-julio/p1-introrpi-pwm-dgarciac2021/wiki/LED) with the GPIO available on the Raspberry Pi 3B+. You might want to take a look on the [wiki](https://github.com/clases-julio/p1-introrpi-pwm-dgarciac2021/wiki), since there is info of everything involved on this project. From the board itslef to the PWM method.
 
 ![Circuit](./.img/circuit.jpg)
 
 ## Circuit Assembly
 
-The assembly is pretty straight-forward. First of all, we connect the protoboard GND bus with the GND of the board. Next, we connect our `GPIO2` (Remember, **`GPIO2` equals to Board pin #3**, check the [wiki page](https://github.com/clases-julio/p1-introrpi-pwm-dgarciac2021/wiki/GPIO) for reference!) to the *Anode* of the LED, and then a 220Ω[^1] resistor between its cathode and GND. This is an schematic made with [Fritzing](https://fritzing.org/):
+The assembly is pretty straight-forward. First of all, we connect the protoboard GND bus with the GND of the board. Next, we connect our `GPIO2` (Remember, **`GPIO2` equals to Board pin #3**, check the [wiki page](https://github.com/clases-julio/p1-introrpi-pwm-dgarciac2021/wiki/GPIO) for reference!) to the *anode* of the LED, and then a 220Ω[^1] resistor between its *cathode* and GND. This is an schematic made with [Fritzing](https://fritzing.org/):
 
 ![Schematic](./.img/schematic.jpg)
 
