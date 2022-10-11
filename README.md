@@ -6,7 +6,7 @@ This exersice consists on drive a LED with the GPIO available on the Raspberry P
 
 ## Circuit Assembly
 
-The assembly is pretty straight-forward. First of all, we connect the protoboard GND bus with the GND of the board. Next, we connect our `GPIO2` (Remember, **GPIO2 equals to Board pin #3**, check the [wiki page](https://github.com/clases-julio/p1-introrpi-pwm-dgarciac2021/wiki/GPIO) for reference!) to the *Anode* of the LED, and then a 220Ω[^1] resistor between its cathode and GND. This is an schematic made with [Fritzing](https://fritzing.org/):
+The assembly is pretty straight-forward. First of all, we connect the protoboard GND bus with the GND of the board. Next, we connect our `GPIO2` (Remember, **`GPIO2` equals to Board pin #3**, check the [wiki page](https://github.com/clases-julio/p1-introrpi-pwm-dgarciac2021/wiki/GPIO) for reference!) to the *Anode* of the LED, and then a 220Ω[^1] resistor between its cathode and GND. This is an schematic made with [Fritzing](https://fritzing.org/):
 
 ![Schematic](./.img/schematic.jpg)
 
