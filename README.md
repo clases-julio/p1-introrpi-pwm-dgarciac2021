@@ -23,7 +23,7 @@ And this is the real circuit!
   import time
   ```
 
-2. Next, we set the GPIO mode (`BCM` today!) and start the PWD mode on said pin. 
+2. Next, we set the GPIO mode (`BCM` today!) and start the PWM mode on said pin. 
 
   ```python
   GPIO.setmode(GPIO.BCM)
