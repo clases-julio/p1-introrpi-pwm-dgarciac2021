@@ -1,6 +1,6 @@
 # P1-IntroRPi-PWM
 
-This exersice consists on drive a [LED](https://github.com/clases-julio/p1-introrpi-pwm-dgarciac2021/wiki/LED) with the [GPIO](https://github.com/clases-julio/p1-introrpi-pwm-dgarciac2021/wiki/GPIO) available on the [Raspberry Pi 3B+](https://github.com/clases-julio/p1-introrpi-pwm-dgarciac2021/wiki/Raspberry-Pi#raspberry-pi-3b). You might want to take a look on the [wiki](https://github.com/clases-julio/p1-introrpi-pwm-dgarciac2021/wiki), since there is info of everything involved on this project. From the board itslef to the PWM method.
+This exercise consists on drive a [LED](https://github.com/clases-julio/p1-introrpi-pwm-dgarciac2021/wiki/LED) with the [GPIO](https://github.com/clases-julio/p1-introrpi-pwm-dgarciac2021/wiki/GPIO) available on the [Raspberry Pi 3B+](https://github.com/clases-julio/p1-introrpi-pwm-dgarciac2021/wiki/Raspberry-Pi#raspberry-pi-3b). You might want to take a look on the [wiki](https://github.com/clases-julio/p1-introrpi-pwm-dgarciac2021/wiki), since there is info of everything involved on this project. From the board itslef to the PWM method.
 
 ![Circuit](./.img/circuit.jpg)
 
@@ -31,7 +31,7 @@ And this is the real circuit!
   pwm = GPIO.PWM(2, 100)
   pwm.start(0)
   ```
-3. Here we set a infinite loop where the [duty cicle](https://github.com/clases-julio/p1-introrpi-pwm-dgarciac2021/wiki/PWM-Output#the-duty-cycle) of the PWM pin iterates from 25 to 100 and back, fading in and out the LED. We can cancel this loop if wi strike <kbd>Ctrl</kbd> + <kbd>C</kbd> in our keyboard.
+3. Here we set a infinite loop where the [duty cicle](https://github.com/clases-julio/p1-introrpi-pwm-dgarciac2021/wiki/PWM-Output#the-duty-cycle) of the PWM pin iterates from 25 to 100 and back, fading in and out the LED. We can cancel this loop if we strike <kbd>Ctrl</kbd> + <kbd>C</kbd> in our keyboard.
 
   ```python
   print ('Press CTRL+C to kill the program')
